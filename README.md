@@ -63,3 +63,6 @@ Callable methods:
  - Finding of specific optimizable structures such as for loops, list loops, etc.
 - _Installable package from pip or conda install_
   - Easily install and analyze within one's own Python environment 
+
+#License
+- BSD
