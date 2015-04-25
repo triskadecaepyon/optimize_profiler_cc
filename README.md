@@ -20,6 +20,13 @@ Addition Python package dependencies:
 - Pandas
 
 ## Usage
+####Importing
+```
+from optimize_profiler_cc.optimize_profiler_cc import OptimizeProfilerCC as opcc
+myrunner = opcc('django_db.json')
+myrunner.run_cc_report()
+```
+####Natively in Project
 ```
 myrunner = OptimizeProfilerCC('django_db.json')
 myrunner.run_cc_report()
